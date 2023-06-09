@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="dauvao" placeholder="nhập số tiền" value="">
+    <select id="select1">
+        <option value="a">VNĐ</option>
+        <option value="b">USD</option>
+        <option value="c">EURO</option>
+    </select>
+    <select id="select2">
+        <option value="a">VNĐ</option>
+        <option value="b">USD</option>
+        <option value="c">EURO</option>
+    </select>
+    <button onclick="tienTe(VND)">Convert</button>
+
+    <script>
+        function tienTe(operator) {
+            let giatri = document.getElementById("dauvao").value;
+            let select1 = document.getElementById("select1").value;
+            let select2 = document.getElementById("select2").value;
+            let result;
+
+            switch (operator) {
+                case VND:
+                    if (select1=="a" && select2=="b"){
+                    result = 23000*a
+                }
+                    break;
+            
+                
+            }
+            alert(result);
+        }
+
+    </script>
+</body>
+
+</html>
